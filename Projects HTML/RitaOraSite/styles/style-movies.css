@@ -1,0 +1,78 @@
+:root {
+    --bckgrnd-movie-description: rgba(193, 208, 235, 0.363);
+}
+body {
+    background-color: var(--darkpurple-section);
+}
+/* NAVIGATION */
+nav {
+    background-color: var(--lightcolor-section);
+}
+/* SECTIONS */
+section {
+    height: 500px;
+    padding: 30px;
+    margin: 30px 0px;
+    color: var(--darkpurple-header);
+    line-height: 1.5;
+}
+section div {
+    font-size: 16pt;
+    font-weight: 600;
+    margin-top: 30px;
+    /* text-shadow: 1.5px 1.5px white; */
+    font-weight: 900;
+}
+.odd div {
+    margin-left: 560px;
+}
+.even div {
+    margin-left: 200px;
+}
+section p {
+    text-indent: 50px;
+    margin: 40px;
+    padding: 10px;
+    text-align: justify;
+    width: 900px;
+    font-size: 16pt;
+    font-weight: 400;
+    font-style: oblique;
+    color: var(--darkpurple-header);
+    background-color: var(--bckgrnd-movie-description);
+}
+.odd p {
+    margin-left: 400px;
+}
+.even p {
+    margin-left: 60px;
+}
+section img {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.odd img {
+    float: left;
+    margin-left: 60px;
+}
+.even img {
+    float: right;
+    margin-right: 60px;
+}
+section div a {
+    padding: 15px 25px;
+    margin: -40px 40px;
+    background-color: var(--lightestcolor-header);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--darkpurple-header);
+    text-shadow: 1.5px 1.5px white;
+    margin-left: 80px;
+    font-weight: 900;
+}
+section a:hover {
+    background-color: var(--lightpurple-header);
+    color: var(--lightestcolor-header);
+    text-shadow: 1.5px 1.5px black;
+}

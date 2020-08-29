@@ -1,0 +1,44 @@
+:root {
+    --background-text: rgba(57, 112, 168, 0.411);
+}
+html {
+    background-color: var(--darkpurple-header);
+}
+body {
+    background-image: url("../images/rita-ora-blue.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+}
+/* SECTIONS */
+section {
+    height: auto;
+    background-color: transparent;
+    color: white;
+    padding: 60px;
+    padding-right: 70px;
+    text-align: justify;
+    line-height: 1.5;
+}
+section h2 {
+    display: inline-block;
+    background-color: var(--background-text);
+    margin-left: 30px;
+    text-shadow: 1.5px 1.5px black;
+    font-weight: 900;
+    padding: 10px;
+}
+section p {
+    background-color: var(--background-text);
+    text-indent: 30px;
+    padding: 10px;
+}
+q {
+    font-style: italic;
+}
+/* FOOTER */
+footer {
+    margin-top: 1px;
+}

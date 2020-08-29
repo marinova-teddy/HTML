@@ -1,0 +1,33 @@
+
+body {
+    background-image: url("../images/rita-ora-smile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: top;
+}
+/* SECTION */
+#photo-gallery figure {
+    padding: 10px;
+    background-color: var(--lightestcolor-header);
+    display: inline-block;
+}
+#photo-gallery figure:hover {
+    box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.15), 3px 3px 8px rgba(0, 0, 0, 0.15), 3px -3px 8px rgba(0, 0, 0, 0.15), -3px 3px 8px rgba(0, 0, 0, 0.15);
+}
+#photo-gallery img, figcaption {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    display: block;
+    padding: 5px;
+    font-family: 'Monoton', cursive;
+    font-size: 24pt;
+    color: var(--darkpurple-header);
+    text-shadow: 1.5px 1.5px white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+table {
+    margin: auto;
+}

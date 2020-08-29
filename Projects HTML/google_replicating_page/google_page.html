@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+        <style>
+            :root {
+                --lightcolor: whitesmoke;
+                --darkcolor: dimgray;
+                --darkbordercolor: grey;
+                --lightbordercolor: silver;
+            }
+            a {
+                color: var(--darkcolor);
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                /*position: absolute;*/
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            #bg:link {
+                color: blue;
+            }
+            #bg:visited {
+                color: purple;
+            }
+            #bg:hover
+            p {
+                color: var(--darkcolor);
+                font-family: Roboto;
+                /*position: absolute;*/
+            }
+            button {
+                background-color: var(--lightcolor);
+                border: none;
+                padding: 9px 10px;
+                border-radius: 4px;
+                display: block;
+                color: var(--darkcolor);
+                font-size: 11pt;
+                position: initial;
+            }
+            button:hover {
+                border: 1px solid var(--darkbordercolor);
+            }
+            .searchbar {
+                width: 600px;
+                height: 40px;
+                border: 1px solid var(--lightbordercolor);
+                border-radius: 25px;
+                background: url('search_icon.png') no-repeat scroll;
+                padding-left: 40px;
+                margin-top: 25px;
+                margin-left: 420px;
+                width: 540px;
+                /*position: absolute;*/
+            }
+            .searchbar:hover {
+                border: 1.5px solid transparent;
+                box-shadow: -0.5px 0 5px 1px  var(--lightbordercolor);
+            }
+            #logo {
+                margin-left: 576px;
+                margin-top: 172px;
+                height: 92px;
+                /*position: absolute;*/
+            }
+            #text {
+                color: black;
+                margin-left: 625px;
+                margin-top: 31px;
+                font-size: 9pt;
+                font-family: Arial, Helvetica, sans-serif;
+                /*position: absolute;*/
+            }
+            nav {
+                text-align: right;
+                font: 11pt Arial, Helvetica, sans-serif;
+                /*position: absolute;*/
+            }
+            footer {
+                background-color: var(--lightcolor);
+                padding: 5px 20px;
+                font-size: 11pt;
+                color:var(--darkcolor);
+                font-family: Arial, Helvetica, sans-serif;
+                border-top: 1px solid var(--lightbordercolor);
+                /*position: absolute;*/
+            }
+            #firstfooter {
+                margin-top: 236px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
+            #secondfooter {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            div {
+                display: block;
+                margin-top: -25px;
+                /*position: absolute;*/
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="https://accounts.google.com/b/0/AddMailService">Gmail</a>
+            <a href="https://www.google.bg/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+            <img src="./apps_icon.png" style="height:20px;margin-right:15px;" alt="">
+            <img src="./t_icon.png" style="height:32px; border-radius: 50%; margin-right: 21px; margin-top: 7px" alt="">
+        </nav>
+
+        <div>
+            <img id="logo" src="./google_logo.png" title="Google" alt="">
+            <form action="">
+                <label for="google_search" ></label>
+                <input class="searchbar" type="text" name="search" >
+            </form>
+            <button style="margin-left: 563px; width: 126px; margin-top: 29px;">Google Search</button>
+            <button style="margin-left: 700px; width: 146px; margin-top: -37px">I'm Feeling Lucky</button>
+            <p id="text">Google offered in:&nbsp  <a id="bg"href="https://www.google.com">български</a></p>
+        </div>
+        
+        <footer id="firstfooter"><p style="margin-top: 7px; margin-right: 6px;">Bulgaria</p></footer>
+        <footer id="secondfooter">
+            <div>
+                <a href="https://ads.google.com/intl/en_bg/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                 >Advertising</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"
+                    >Business</a>
+                <a href="https://about.google/?utm_source=google-BG&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+                    >About</a> 
+                <a href="https://www.google.com/search/howsearchworks/?fg=1"
+                    >How Search works</a>
+
+                <a href="https://policies.google.com/privacy?hl=en-BG&fg=1"
+                    >Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-BG&fg=1"
+                    >Terms</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjbx8GE5pLrAhWM3OAKHTToCUYQzq0CCBM&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F"
+                    >Settings</a>
+            </div>
+        </footer>
+    </body>
+</html>

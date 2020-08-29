@@ -1,0 +1,61 @@
+:root {
+    --darkpurple-figcaption: rgb(36, 9, 99);
+    --lightpurple-figcaption: rgba(36, 9, 99, 0.788);
+}
+body {
+    background-color: var(--lightcolor-section);
+}
+/* NAVIGATION */
+nav {
+    background-color: var(--lightcolor-section);
+}
+/* SECTION */
+#photo-gallery {
+    padding: 10px;
+    margin: 0;
+    /* display: block; */
+    text-align: center;
+}
+#photo-gallery div {
+    display: inline-block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#photo-gallery figure {
+    background-color: var(--lightestcolor-header);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 5px;
+}
+#photo-gallery figure:hover {
+    box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.15), 3px 3px 8px rgba(0, 0, 0, 0.15), 3px -3px 8px rgba(0, 0, 0, 0.15), -3px 3px 8px rgba(0, 0, 0, 0.15);
+}
+#photo-gallery img, figcaption {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    font-size: 10pt;
+    color: var(--lightpurple-figcaption);
+}
+figcaption i {
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 12pt;
+    color: var(--darkpurple-figcaption);
+}
+figcaption a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+figcaption a:hover {
+    border: none;
+}
+figcaption a:active {
+    background-color: var(--darkpurple-header);
+}
